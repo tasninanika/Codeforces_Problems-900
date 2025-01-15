@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main(){
@@ -11,17 +11,25 @@ int main(){
     }
 
     for(int i = 0; i < n; i++){
+        if(arr[i] < arr[i+1]){
+            swap(arr[i],arr[i+1]);
+        }
+    }
+    for(int i = 0; i < n; i++){
         sum += arr[i];
         sum_of_coins = sum;
     }
     for(int i = 0; i < n; i++){
-        if(sum_of_coins > sum_of_my_coins){
+
+        if(sum_of_coins >= sum_of_my_coins){
             sum_of_my_coins += arr[i];
             sum_of_coins -= arr[i];
             c++;
         }
     }
     cout << c << endl;
+
+
 
 
     return 0;
