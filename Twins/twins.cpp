@@ -17,6 +17,7 @@ int main(){
     for(int i = 0; i < n; i++){
         if(sum_of_coins > sum_of_my_coins){
             sum_of_my_coins += arr[i];
+            sum_of_coins -= arr[i];
             c++;
         }
     }
