@@ -8,7 +8,7 @@ int main(){
     int c = 0;
 
     for(int i = 0; i < p.size(); i++){
-        if(p[i] == 'H' || p[i] == 'Q' || p[i] == '9' || p[i] == '+'){
+        if(p[i] == 'H' || p[i] == 'Q' || p[i] == '9'){
             c++;
         }
     }
