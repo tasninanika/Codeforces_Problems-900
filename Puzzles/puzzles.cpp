@@ -18,8 +18,11 @@ int main(){
         }
     }
 
+    int a = f[m-1] - f[0];
+
     for(int i = 0; i < m; i++){
-        if(f[i])
+        int a = f[i+1] - f[i];
+        if( < a)
     }
 
     return 0;
