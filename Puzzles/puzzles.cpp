@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int n, m, a = 0;
+    int n, m, a = 0, b;
     cin >> n >> m;
 
     int f[m];
@@ -21,9 +21,12 @@ int main(){
     a = f[m-1] - f[0];
 
     for(int i = n; i <= m; i++){
-        int a = f[i+1] - f[i];
-        if( < a)
+        b = f[i-1] - f[i-n];
+        b = abs(b);
+        a = min(a,b);
     }
+
+
 
     return 0;
 }
