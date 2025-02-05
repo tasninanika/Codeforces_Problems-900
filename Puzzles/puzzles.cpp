@@ -26,7 +26,7 @@ int main(){
         a = min(a,b);
     }
 
-
+    cout << a << endl;
 
     return 0;
 }
