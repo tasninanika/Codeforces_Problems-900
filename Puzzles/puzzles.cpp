@@ -7,7 +7,7 @@ int main(){
 
     int f[m];
     for(int i = 0; i < m; i++){
-
+        cin >> f[i];
     }
 
     return 0;
