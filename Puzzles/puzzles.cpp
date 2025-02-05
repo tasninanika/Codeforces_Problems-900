@@ -12,7 +12,9 @@ int main(){
 
     for(int i = 0; i < m; i++){
         for(int j = 0; j < m - i - 1; j++){
+            if(j[i] > j[i+1]){
 
+            }
         }
     }
 
