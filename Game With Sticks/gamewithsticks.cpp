@@ -8,5 +8,9 @@ int main(){
 
     int moves = min(n, m);
 
+    if(moves % 2 == 1){
+        cout << "Akshat" << endl;
+    }
+
     return 0;
 }
