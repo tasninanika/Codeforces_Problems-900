@@ -9,6 +9,9 @@ int main(){
     if(n % 2 != 0 && m % 2 != 0){
         cout << "Akshat" << endl;
     }
+    else{
+        cout << "Malvika" << endl;
+    }
 
     return 0;
 }
