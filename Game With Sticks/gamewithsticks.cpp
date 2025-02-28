@@ -11,6 +11,9 @@ int main(){
     if(moves % 2 == 1){
         cout << "Akshat" << endl;
     }
+    else{
+        cout << "Malvika" << endl;
+    }
 
     return 0;
 }
