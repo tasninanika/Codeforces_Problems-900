@@ -8,6 +8,10 @@ int main(){
     int n;
     while(t--){
         cin >> n;
+
+        while (n % 2 == 0){
+            n /= 2;
+        }
     }
 
     return 0;
