@@ -8,6 +8,7 @@ int main(){
     if(n > 0){
         cout << n << endl;
     }
+    else if(n < 0)
 
     return 0;
 }
