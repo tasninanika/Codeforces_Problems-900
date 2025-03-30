@@ -11,6 +11,10 @@ int main(){
     else if(n < 0){
         int n1 = n / 10;
         int n2 = n / 100;
+
+        if( n1 > n2){
+
+        }
     }
 
     return 0;
