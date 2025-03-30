@@ -10,7 +10,7 @@ int main(){
     }
     else if(n < 0){
         int n1 = n / 10;
-        int n2 = n / 100;
+        int n2 = (n / 100) * 10 + (n % 10);
 
         if( n1 > n2){
             cout << n1 << endl;
