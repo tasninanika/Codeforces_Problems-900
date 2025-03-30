@@ -15,6 +15,9 @@ int main(){
         if( n1 > n2){
             cout << n1 << endl;
         }
+        else if(n1 < n2){
+
+        }
     }
 
     return 0;
