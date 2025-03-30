@@ -16,7 +16,7 @@ int main(){
             cout << n1 << endl;
         }
         else if(n1 < n2){
-
+            cout << n2 << endl;
         }
     }
 
