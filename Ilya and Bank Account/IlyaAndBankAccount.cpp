@@ -13,7 +13,7 @@ int main(){
         int n2 = n / 100;
 
         if( n1 > n2){
-
+            cout << n1 << endl;
         }
     }
 
