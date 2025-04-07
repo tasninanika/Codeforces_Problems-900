@@ -20,7 +20,7 @@ int main(){
     sort(neg_arr.begin(), neg_arr.end());
 
     int sum = 0;
-    for(int i = 0; i < neg_arr.size(); i++){
+    for(int i = 0; i < min(m, (int)neg_arr.size()); i++){
         sum += -neg_arr[i];
     }
 
