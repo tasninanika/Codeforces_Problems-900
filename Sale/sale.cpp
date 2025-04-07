@@ -24,5 +24,7 @@ int main(){
         sum += -neg_arr[i];
     }
 
+    cout << sum << endl;
+
     return 0;
 }
