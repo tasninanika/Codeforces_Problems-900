@@ -17,5 +17,7 @@ int main(){
         }
     }
 
+    sort(neg_arr.begin(), neg_arr.end());
+
     return 0;
 }
