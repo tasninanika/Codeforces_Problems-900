@@ -10,5 +10,7 @@ int main(){
         cin >> a[i];
     }
 
+    vector<int> neg_arr;
+
     return 0;
 }
