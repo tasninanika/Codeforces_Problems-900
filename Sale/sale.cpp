@@ -19,5 +19,9 @@ int main(){
 
     sort(neg_arr.begin(), neg_arr.end());
 
+    for(int i = 0; i < m; i++){
+
+    }
+
     return 0;
 }
