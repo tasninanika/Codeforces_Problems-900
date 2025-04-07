@@ -21,7 +21,7 @@ int main(){
 
     int sum = 0;
     for(int i = 0; i < m; i++){
-
+        sum += -neg_arr[i];
     }
 
     return 0;
