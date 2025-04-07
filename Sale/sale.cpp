@@ -19,6 +19,7 @@ int main(){
 
     sort(neg_arr.begin(), neg_arr.end());
 
+    int sum = 0;
     for(int i = 0; i < m; i++){
 
     }
