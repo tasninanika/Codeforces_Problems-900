@@ -20,7 +20,7 @@ int main(){
                 moves++;
             }
             else{
-
+                moves = -1;
             }
         }
 
