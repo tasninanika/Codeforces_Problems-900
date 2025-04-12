@@ -19,6 +19,9 @@ int main(){
                 n *= 2;
                 moves++;
             }
+            else{
+
+            }
         }
 
 
