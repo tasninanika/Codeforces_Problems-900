@@ -25,7 +25,7 @@ int main(){
             }
         }
 
-        cout << moves << endl
+        cout << moves << endl;
 
 
     }
