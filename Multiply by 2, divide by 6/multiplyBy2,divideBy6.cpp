@@ -13,6 +13,7 @@ int main(){
         while(n != 1){
             if(n % 6 == 0){
                 n /= 6;
+                moves++;
             }
         }
 
