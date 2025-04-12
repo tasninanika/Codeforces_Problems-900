@@ -21,6 +21,7 @@ int main(){
             }
             else{
                 moves = -1;
+                break;
             }
         }
 
