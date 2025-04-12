@@ -15,6 +15,9 @@ int main(){
                 n /= 6;
                 moves++;
             }
+            else if(n % 3 == 0){
+
+            }
         }
 
 
