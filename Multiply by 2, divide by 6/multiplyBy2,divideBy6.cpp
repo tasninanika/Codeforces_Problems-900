@@ -10,6 +10,10 @@ int main(){
         cin >> n;
         int moves = 0;
 
+        while(n != 1){
+
+        }
+
 
     }
 
