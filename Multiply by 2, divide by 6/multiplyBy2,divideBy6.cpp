@@ -25,6 +25,8 @@ int main(){
             }
         }
 
+        cout << moves << endl
+
 
     }
 
