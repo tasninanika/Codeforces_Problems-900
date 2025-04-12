@@ -16,7 +16,7 @@ int main(){
                 moves++;
             }
             else if(n % 3 == 0){
-
+                n *= 2;
             }
         }
 
