@@ -11,7 +11,9 @@ int main(){
         int moves = 0;
 
         while(n != 1){
+            if(n % 6 == 0){
 
+            }
         }
 
 
