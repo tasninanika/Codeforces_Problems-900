@@ -9,9 +9,12 @@ int main(){
         int n;
         cin >> n;
 
-        for(int k = 2; ; k++){
-
+        for (int k = 3; k <= n; k = k * 2 + 1) {
+        if (n % k == 0) {
+            cout << n / k << endl;
+            return;
         }
+    }
     }
 
     return 0;
