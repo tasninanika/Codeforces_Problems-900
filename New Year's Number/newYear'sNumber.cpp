@@ -16,6 +16,10 @@ int main(){
 
         int k = n / 2020;
         int b = n % 2020;
+
+        if(b <= k){
+
+        }
     }
 
 
