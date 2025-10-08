@@ -18,7 +18,7 @@ int main(){
         int b = n % 2020;
 
         if(b <= k){
-
+            cout <<"YES" << endl;
         }
     }
 
