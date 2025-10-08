@@ -5,6 +5,8 @@ int main(){
     int t;
     cin >> t;
 
+    while()
+
 
     return 0;
 }
