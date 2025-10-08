@@ -10,7 +10,7 @@ int main(){
         cin >> n;
 
         if(n < 2020){
-
+            cout << "NO" << endl;
         }
     }
 
