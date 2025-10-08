@@ -9,7 +9,9 @@ int main(){
         int n;
         cin >> n;
 
-        if(n < 2020)
+        if(n < 2020){
+
+        }
     }
 
 
