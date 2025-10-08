@@ -5,7 +5,9 @@ int main(){
     int t;
     cin >> t;
 
-    while()
+    while(t--){
+
+    }
 
 
     return 0;
