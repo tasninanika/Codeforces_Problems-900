@@ -11,6 +11,7 @@ int main(){
 
         if(n < 2020){
             cout << "NO" << endl;
+            return;
         }
     }
 
