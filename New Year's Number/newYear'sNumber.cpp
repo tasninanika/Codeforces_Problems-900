@@ -20,6 +20,9 @@ int main(){
         if(b <= k){
             cout <<"YES" << endl;
         }
+        else{
+
+        }
     }
 
 
