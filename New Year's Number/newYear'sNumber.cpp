@@ -13,6 +13,8 @@ int main(){
             cout << "NO" << endl;
             return;
         }
+
+        int k = n / 2020;
     }
 
 
