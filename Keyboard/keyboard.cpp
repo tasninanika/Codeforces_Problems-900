@@ -9,6 +9,9 @@ int main(){
     const string keyboard = "qwertyuiopasdfghjkl;zxcvbnm,./";
     string original_message = "";
 
+    int offset;
+
+
 
     return 0;
 }
