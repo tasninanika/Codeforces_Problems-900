@@ -11,7 +11,7 @@ int main(){
 
     int offset;
     if(shift_direction == 'R'){
-
+        offset = -1;
     }
 
 
