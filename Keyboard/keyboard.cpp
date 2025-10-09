@@ -18,7 +18,7 @@ int main(){
     }
 
     for(size_t i = 0; i < typed_message.length(); i++){
-
+        char typed_char = typed_message[i];
     }
 
 
