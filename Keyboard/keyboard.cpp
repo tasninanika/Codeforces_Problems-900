@@ -10,6 +10,9 @@ int main(){
     string original_message = "";
 
     int offset;
+    if(shift_direction == 'R'){
+
+    }
 
 
 
