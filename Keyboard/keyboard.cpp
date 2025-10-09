@@ -7,6 +7,7 @@ int main(){
     cin >> shift_direction >> typed_message;
 
     const string keyboard = "qwertyuiopasdfghjkl;zxcvbnm,./";
+    string original_message = "";
 
 
     return 0;
