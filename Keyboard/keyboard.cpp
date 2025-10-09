@@ -23,6 +23,7 @@ int main(){
         size_t original_index = index + offset;
         original_message += keyboard[original_index];
     }
+    cout << original_message << endl;
 
 
 
