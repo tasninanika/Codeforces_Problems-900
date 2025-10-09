@@ -14,7 +14,7 @@ int main(){
         offset = -1;
     }
     else{
-
+        offset = 1;
     }
 
 
