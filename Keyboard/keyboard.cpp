@@ -17,6 +17,10 @@ int main(){
         offset = 1;
     }
 
+    for(size_t i = 0; i < typed_message.length(); i++){
+
+    }
+
 
 
     return 0;
