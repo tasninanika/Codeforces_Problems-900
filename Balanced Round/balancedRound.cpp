@@ -24,7 +24,9 @@ int main(){
                 current_count = 1;
             }
             else{
+                if(a[i] - a[i - 1] <= k){
 
+                }
             }
         }
     }
