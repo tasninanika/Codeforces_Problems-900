@@ -28,6 +28,7 @@ int main(){
                     current_count++;
                 }
             }
+            max_count = max(max_count, current_count);
         }
     }
 
