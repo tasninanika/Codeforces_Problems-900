@@ -28,7 +28,7 @@ int main(){
                     current_count++;
                 }
                 else{
-
+                    current_count = 1;
                 }
             }
             max_count = max(max_count, current_count);
