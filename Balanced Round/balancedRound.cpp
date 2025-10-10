@@ -23,6 +23,9 @@ int main(){
             if(i == 0){
                 current_count = 1;
             }
+            else{
+
+            }
         }
     }
 
