@@ -18,6 +18,10 @@ int main(){
 
         int max_count = 0;
         int current_count = 0;
+
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
 
