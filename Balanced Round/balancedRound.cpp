@@ -1,42 +1,34 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
+#define ll long long int
 using namespace std;
 
 int main(){
-    int t;
+    ll t = 1;
     cin >> t;
 
     while(t--){
-        int n, k;
+        ll n, k;
         cin >> n >> k;
 
-        vector<int> a(n);
-        for(int i = 0; i < n; i++){
-            cin >> a[i];
-        }
+        ll arr[n];
+        for (int i = 0; i < n; i++)
+            cin >> arr[i];
 
-        sort(a.begin(), a.end());
+        ll curr = 1, total = 0;
+        sort(arr, arr + n);
 
-        int max_count = 0;
-        int current_count = 0;
-
-        for(int i = 0; i < n; i++){
-            if(i == 0){
-                current_count = 1;
+        for(int i = 0; i < n - 1; i++){
+            if{(abs(arr[i] - arr[i + 1]) <= k)
+                curr++;
             }
             else{
-                if(a[i] - a[i - 1] <= k){
-                    current_count++;
-                }
-                else{
-                    current_count = 1;
-                }
+                total = max(total, curr);
+                curr = 1;
             }
-            max_count = max(max_count, current_count);
         }
-        cout << max_count << endl;
+
+        total = max(total, curr);
+
+        cout << n - total << endl;
     }
-
-
-
-    return 0;
 }
