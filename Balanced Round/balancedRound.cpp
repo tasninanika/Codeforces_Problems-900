@@ -17,6 +17,7 @@ int main(){
         sort(a.begin(), a.end());
 
         int max_count = 0;
+        int current_count = 0;
     }
 
 
