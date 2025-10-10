@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 #define ll long long int
 using namespace std;
 
@@ -11,8 +11,9 @@ int main(){
         cin >> n >> k;
 
         ll arr[n];
-        for (int i = 0; i < n; i++)
+        for(int i = 0; i < n; i++){
             cin >> arr[i];
+        }
 
         ll curr = 1, total = 0;
         sort(arr, arr + n);
