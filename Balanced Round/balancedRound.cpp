@@ -30,6 +30,7 @@ int main(){
             }
             max_count = max(max_count, current_count);
         }
+        cout << max_count << endl;
     }
 
 
