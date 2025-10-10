@@ -27,6 +27,9 @@ int main(){
                 if(a[i] - a[i - 1] <= k){
                     current_count++;
                 }
+                else{
+
+                }
             }
             max_count = max(max_count, current_count);
         }
