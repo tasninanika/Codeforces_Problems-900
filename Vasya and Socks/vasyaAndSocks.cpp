@@ -8,6 +8,7 @@ int main(){
     int c = n;
     while(n >= m){
         c += n / m;
+        n = (n / m) + (n % m);
     }
 
 
