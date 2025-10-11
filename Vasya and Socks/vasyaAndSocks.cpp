@@ -6,6 +6,9 @@ int main(){
     cin >> n >> m;
 
     int c = n;
+    while(n >= m){
+
+    }
 
 
     return 0;
