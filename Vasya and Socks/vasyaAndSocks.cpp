@@ -10,7 +10,7 @@ int main(){
         c += n / m;
         n = (n / m) + (n % m);
     }
-
+    cout << c << endl;
 
     return 0;
 }
