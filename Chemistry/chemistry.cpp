@@ -30,6 +30,9 @@ int main(){
         if(k >= min_required_removals){
             cout << "YES" << endl;
         }
+        else{
+
+        }
 
     }
 
