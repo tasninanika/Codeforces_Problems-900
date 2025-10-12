@@ -19,6 +19,9 @@ int main(){
         }
 
         int odd_counts = 0;
+        for(int i = 0; i < 26; i++){
+
+        }
 
     }
 
