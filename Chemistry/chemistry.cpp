@@ -25,6 +25,8 @@ int main(){
             }
         }
 
+        int min_required_removals = max(0, odd_counts - 1);
+
     }
 
 
