@@ -21,7 +21,7 @@ int main(){
         int odd_counts = 0;
         for(int i = 0; i < 26; i++){
             if(counts[i] % 2 != 0){
-
+                odd_counts++;
             }
         }
 
