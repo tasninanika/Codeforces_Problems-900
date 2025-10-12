@@ -18,6 +18,8 @@ int main(){
             counts[c - 'a']++;
         }
 
+        int odd_counts = 0;
+
     }
 
 
