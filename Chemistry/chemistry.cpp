@@ -13,6 +13,9 @@ int main(){
         cin >> s;
 
         int counts[26] = {0};
+        for(int i = 0; i < n; i++){
+
+        }
 
     }
 
