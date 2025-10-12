@@ -12,7 +12,8 @@ int main(){
         string s;
         cin >> s;
 
-        map<char, int> counts;
+        int counts[26] = {0};
+
     }
 
 
