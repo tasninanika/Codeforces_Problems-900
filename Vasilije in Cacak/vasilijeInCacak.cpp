@@ -11,6 +11,10 @@ int main(){
 
         long long minSum = k * (k + 1) / 2;
         long long maxSum = k * (2 * n - k + 1) / 2;
+
+        if(x >= minSum && x <= maxSum){
+
+        }
     }
 
     return 0;
