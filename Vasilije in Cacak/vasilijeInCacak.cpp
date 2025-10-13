@@ -13,7 +13,7 @@ int main(){
         long long maxSum = k * (2 * n - k + 1) / 2;
 
         if(x >= minSum && x <= maxSum){
-
+            cout << "YES" << endl;
         }
     }
 
