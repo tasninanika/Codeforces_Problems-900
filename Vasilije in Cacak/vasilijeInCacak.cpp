@@ -10,6 +10,7 @@ int main(){
         cin >> n >> k >> x;
 
         long long minSum = k * (k + 1) / 2;
+        long long maxSum = k * (2 * n - k + 1) / 2;
     }
 
     return 0;
