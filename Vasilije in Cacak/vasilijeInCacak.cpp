@@ -15,6 +15,9 @@ int main(){
         if(x >= minSum && x <= maxSum){
             cout << "YES" << endl;
         }
+        else{
+
+        }
     }
 
     return 0;
