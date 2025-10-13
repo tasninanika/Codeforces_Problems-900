@@ -8,6 +8,8 @@ int main(){
     while(t--){
         long long n, k, x;
         cin >> n >> k >> x;
+
+        long long minSum = k * (k + 1) / 2;
     }
 
     return 0;
