@@ -12,7 +12,7 @@ int main(){
 
         vector<ll> psum(n + 1, 0);
         for(int i = 1; i <= n; i++){
-
+            ll a_i;
         }
     }
 
