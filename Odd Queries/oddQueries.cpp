@@ -24,6 +24,7 @@ int main(){
             cin >> l >> r >> k;
 
             ll original_segment_sum = psum[r] - psum[l - 1];
+            ll segment_length = r - l + 1;
         }
     }
 
