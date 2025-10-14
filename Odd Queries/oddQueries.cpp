@@ -9,6 +9,8 @@ int main(){
     while(t--){
         int n, q;
         cin >> n >> q;
+
+        vector<ll> psum(n + 1, 0);
     }
 
 
