@@ -14,6 +14,7 @@ int main(){
         for(int i = 1; i <= n; i++){
             ll a_i;
             cin >> a_i;
+            psum[i] = psum[i - 1] + a_i;
         }
     }
 
