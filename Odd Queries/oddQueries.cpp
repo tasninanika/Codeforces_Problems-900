@@ -22,6 +22,8 @@ int main(){
         while(q--){
             ll l, r, k;
             cin >> l >> r >> k;
+
+            ll original_segment_sum = psum[r] - psum[l - 1];
         }
     }
 
