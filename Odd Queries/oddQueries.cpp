@@ -21,6 +21,7 @@ int main(){
 
         while(q--){
             ll l, r, k;
+            cin >> l >> r >> k;
         }
     }
 
