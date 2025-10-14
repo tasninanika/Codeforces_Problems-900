@@ -32,6 +32,9 @@ int main(){
             if(new_total_sum % 2 != 0){
                 cout << "YES" << endl;
             }
+            else{
+
+            }
         }
     }
 
