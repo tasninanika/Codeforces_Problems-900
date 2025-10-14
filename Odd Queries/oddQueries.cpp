@@ -30,7 +30,7 @@ int main(){
             ll new_total_sum = original_total_sum - original_segment_sum + new_segment_sum;
 
             if(new_total_sum % 2 != 0){
-
+                cout << "YES" << endl;
             }
         }
     }
