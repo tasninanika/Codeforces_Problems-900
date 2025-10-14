@@ -11,6 +11,9 @@ int main(){
         cin >> n >> q;
 
         vector<ll> psum(n + 1, 0);
+        for(int i = 1; i <= n; i++){
+
+        }
     }
 
 
