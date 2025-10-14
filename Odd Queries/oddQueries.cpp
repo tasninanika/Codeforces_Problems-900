@@ -26,6 +26,8 @@ int main(){
             ll original_segment_sum = psum[r] - psum[l - 1];
             ll segment_length = r - l + 1;
             ll new_segment_sum = segment_length * k;
+
+            ll new_total_sum = original_total_sum - original_segment_sum + new_segment_sum;
         }
     }
 
