@@ -18,6 +18,10 @@ int main(){
         }
 
         ll original_total_sum = psum[n];
+
+        while(q--){
+
+        }
     }
 
 
