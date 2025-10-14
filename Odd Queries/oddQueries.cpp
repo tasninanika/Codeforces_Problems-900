@@ -28,6 +28,10 @@ int main(){
             ll new_segment_sum = segment_length * k;
 
             ll new_total_sum = original_total_sum - original_segment_sum + new_segment_sum;
+
+            if(new_total_sum % 2 != 0){
+
+            }
         }
     }
 
