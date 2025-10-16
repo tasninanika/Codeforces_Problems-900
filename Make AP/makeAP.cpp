@@ -17,7 +17,7 @@ int main(){
             cout << "YES" << endl;
         }
         else if((a + c) % (2 * b) == 0){
-
+            cout << "YES" << endl;
         }
     }
 
