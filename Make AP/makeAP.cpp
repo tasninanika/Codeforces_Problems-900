@@ -13,6 +13,9 @@ int main(){
         if((b - a) == (c - b)){
             cout << "YES" << endl;
         }
+        else if((2 * b - c) % a == 0 && (2 * b - c) > 0){
+
+        }
     }
 
 
