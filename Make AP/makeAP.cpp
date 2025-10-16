@@ -19,6 +19,9 @@ int main(){
         else if((a + c) % (2 * b) == 0){
             cout << "YES" << endl;
         }
+        else if((2 * b - a) % c == 0 && (2 * b - a) > 0){
+
+        }
     }
 
 
