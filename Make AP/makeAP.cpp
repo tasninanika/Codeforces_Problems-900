@@ -14,7 +14,7 @@ int main(){
             cout << "YES" << endl;
         }
         else if((2 * b - c) % a == 0 && (2 * b - c) > 0){
-
+            cout << "YES" << endl;
         }
     }
 
