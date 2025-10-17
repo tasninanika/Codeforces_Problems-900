@@ -23,6 +23,9 @@ int main(){
         if(pairs % 2 == 1){
             cout << "DA" << endl;
         }
+        else{
+
+        }
     }
 
 
