@@ -21,7 +21,7 @@ int main(){
 
         int pairs = min(c0, c1);
         if(pairs % 2 == 1){
-
+            cout << "DA" << endl;
         }
     }
 
