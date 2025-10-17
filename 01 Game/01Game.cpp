@@ -18,6 +18,8 @@ int main(){
                 c1++;
             }
         }
+
+        int pairs = min(c0, c1);
     }
 
 
