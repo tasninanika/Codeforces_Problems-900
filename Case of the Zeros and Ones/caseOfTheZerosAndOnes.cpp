@@ -13,7 +13,7 @@ int main(){
 
     for(int i = 0; i < s.size(); i++){
         if(c == '0'){
-
+            c++;
         }
     }
 
