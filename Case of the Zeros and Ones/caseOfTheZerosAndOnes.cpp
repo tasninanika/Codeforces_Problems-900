@@ -20,6 +20,8 @@ int main(){
         }
     }
 
+    cout << abs(c - c1) << endl;
+
 
     return 0;
 }
