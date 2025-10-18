@@ -5,6 +5,8 @@ int main(){
     int n;
     cin >> n;
 
+    string s;
+
 
     return 0;
 }
