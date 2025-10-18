@@ -9,6 +9,7 @@ int main(){
     cin >> s;
 
     int c = 0;
+    int c1 = 0;
 
 
     return 0;
