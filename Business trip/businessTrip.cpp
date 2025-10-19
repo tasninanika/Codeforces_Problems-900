@@ -26,6 +26,7 @@ int main(){
     sort(a.rbegin(), a.rend());
 
     int current_growth = 0;
+    int months = 0;
 
     return 0;
 }
