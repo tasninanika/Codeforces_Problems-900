@@ -32,6 +32,7 @@ int main(){
         if(current_growth >= k){
             break;
         }
+        current_growth += a[i];
     }
 
     return 0;
