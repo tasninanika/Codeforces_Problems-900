@@ -30,7 +30,7 @@ int main(){
 
     for(int i = 0; i < 12; i++){
         if(current_growth >= k){
-
+            break;
         }
     }
 
