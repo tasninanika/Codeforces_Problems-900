@@ -36,5 +36,7 @@ int main(){
         months++;
     }
 
+    cout << months << endl;
+
     return 0;
 }
