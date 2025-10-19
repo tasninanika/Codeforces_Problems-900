@@ -29,7 +29,9 @@ int main(){
     int months = 0;
 
     for(int i = 0; i < 12; i++){
+        if(current_growth >= k){
 
+        }
     }
 
     return 0;
