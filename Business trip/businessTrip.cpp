@@ -6,6 +6,7 @@ int main(){
     cin >> k;
 
     vector<int> a(12);
+    int total_growth = 0;
 
     return 0;
 }
