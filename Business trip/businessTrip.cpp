@@ -18,5 +18,9 @@ int main(){
         return 0;
     }
 
+    if(total_growth < k){
+
+    }
+
     return 0;
 }
