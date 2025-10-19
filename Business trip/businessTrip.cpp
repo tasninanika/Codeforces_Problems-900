@@ -23,5 +23,7 @@ int main(){
         return 0;
     }
 
+    sort(a.rbegin(), a.rend());
+
     return 0;
 }
