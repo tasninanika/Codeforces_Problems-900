@@ -13,5 +13,9 @@ int main(){
         total_growth += a[i];
     }
 
+    if(k == 0){
+
+    }
+
     return 0;
 }
