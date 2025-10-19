@@ -33,6 +33,7 @@ int main(){
             break;
         }
         current_growth += a[i];
+        months++;
     }
 
     return 0;
