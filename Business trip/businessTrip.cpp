@@ -8,5 +8,9 @@ int main(){
     vector<int> a(12);
     int total_growth = 0;
 
+    for(int i = 0; i < 12; i++){
+
+    }
+
     return 0;
 }
