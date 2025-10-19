@@ -28,5 +28,9 @@ int main(){
     int current_growth = 0;
     int months = 0;
 
+    for(int i = 0; i < 12; i++){
+
+    }
+
     return 0;
 }
