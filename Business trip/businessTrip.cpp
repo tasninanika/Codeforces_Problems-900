@@ -9,7 +9,7 @@ int main(){
     int total_growth = 0;
 
     for(int i = 0; i < 12; i++){
-
+        cin >> a[i];
     }
 
     return 0;
