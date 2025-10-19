@@ -10,6 +10,7 @@ int main(){
 
     for(int i = 0; i < 12; i++){
         cin >> a[i];
+        total_growth += a[i];
     }
 
     return 0;
