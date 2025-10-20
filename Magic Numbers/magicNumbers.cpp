@@ -22,10 +22,10 @@ int main() {
             break;
         }
     }
-    if (is_magic) {
+    if(is_magic){
         cout << "YES" << endl;
     }
-    else {
+    else{
         cout << "NO" << endl;
     }
     return 0;
