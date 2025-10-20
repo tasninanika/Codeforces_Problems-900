@@ -6,17 +6,18 @@ int main() {
 
     bool is_magic = true;
     int i = 0;
-    while(i < s.length()) {
-        if (i + 2 < s.length() && s.substr(i, 3) == "144") {
+    while(i < s.length()){
+        if(i + 2 < s.length() && s.substr(i, 3) == "144"){
             i += 3;
         }
-        else if (i + 1 < s.length() && s.substr(i, 2) == "14") {
+        else if(i + 1 < s.length() && s.substr(i, 2) == "14"){
             i += 2;
         }
 
-        else if (s[i] == '1') {
+        else if(s[i] == '1'){
             i += 1;
-        } else {
+        }
+        else{
             is_magic = false;
             break;
         }
