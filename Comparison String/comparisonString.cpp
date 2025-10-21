@@ -30,6 +30,7 @@ int main(){
 
             max_run = max(max_run, current_run);
         }
+        cout << max_run + 1 << endl;
     }
 
     return 0;
