@@ -16,6 +16,8 @@ int main(){
             cout << 1 << endl;
             return;
         }
+
+        int max_run = 1;
     }
 
     return 0;
