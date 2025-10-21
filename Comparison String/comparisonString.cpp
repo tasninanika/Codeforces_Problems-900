@@ -18,6 +18,7 @@ int main(){
         }
 
         int max_run = 1;
+        int current_run = 1;
     }
 
     return 0;
