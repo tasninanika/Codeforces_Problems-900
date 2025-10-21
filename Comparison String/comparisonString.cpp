@@ -19,6 +19,10 @@ int main(){
 
         int max_run = 1;
         int current_run = 1;
+
+        for(int i = 1; i < n; i++){
+
+        }
     }
 
     return 0;
