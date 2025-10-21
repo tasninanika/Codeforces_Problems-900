@@ -14,7 +14,7 @@ int main(){
 
         if(n == 0){
             cout << 1 << endl;
-            return;
+            break;
         }
 
         int max_run = 1;
