@@ -21,7 +21,9 @@ int main(){
         int current_run = 1;
 
         for(int i = 1; i < n; i++){
+            if(s[i] == s[i - 1]){
 
+            }
         }
     }
 
