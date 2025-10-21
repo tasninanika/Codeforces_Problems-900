@@ -11,6 +11,10 @@ int main(){
 
         string s;
         cin >> s;
+
+        if(n == 0){
+
+        }
     }
 
     return 0;
