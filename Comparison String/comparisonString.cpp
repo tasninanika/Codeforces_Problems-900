@@ -24,6 +24,9 @@ int main(){
             if(s[i] == s[i - 1]){
                 current_run++;
             }
+            else{
+
+            }
         }
     }
 
