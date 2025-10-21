@@ -13,7 +13,7 @@ int main(){
         cin >> s;
 
         if(n == 0){
-
+            cout << 1 << endl;
         }
     }
 
