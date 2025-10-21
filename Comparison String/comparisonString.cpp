@@ -27,6 +27,8 @@ int main(){
             else{
                 current_run = 1;
             }
+
+            max_run = max(max_run, current_run);
         }
     }
 
