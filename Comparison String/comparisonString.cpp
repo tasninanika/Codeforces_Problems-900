@@ -25,7 +25,7 @@ int main(){
                 current_run++;
             }
             else{
-
+                current_run = 1;
             }
         }
     }
