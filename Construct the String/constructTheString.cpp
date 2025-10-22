@@ -11,6 +11,7 @@ int main(){
 
         for(int i = 0; i < n; i++){
             char c = 'a' + (i % b);
+            cout << c;
         }
     }
 
