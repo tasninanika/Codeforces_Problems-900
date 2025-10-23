@@ -36,7 +36,7 @@ int main(){
         max_depth = max(max_depth, depth[i]);
     }
 
-
+    cout << max_depth << endl;
 
     return 0;
 }
