@@ -5,6 +5,8 @@ int main(){
     int n;
     cin >> n;
 
+    vector<int> employees(n + 1);
+
 
 
     return 0;
