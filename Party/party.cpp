@@ -24,6 +24,10 @@ int main(){
             }
 
             int base_depth = (current_employee == -1) ? 0 : depth[current_employee];
+
+            for(int j = path.size() - 1; j >= 0; j--){
+
+            }
         }
     }
 
