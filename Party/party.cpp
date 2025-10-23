@@ -6,6 +6,7 @@ int main(){
     cin >> n;
 
     vector<int> employees(n + 1);
+    vector<int> depth(n + 1, 0);
 
 
 
