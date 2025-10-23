@@ -19,7 +19,7 @@ int main(){
 
             vector<int> path;
             while(current_employee != -1 && depth[current_employee] == 0){
-
+                path.push_back(current_employee);
             }
         }
     }
