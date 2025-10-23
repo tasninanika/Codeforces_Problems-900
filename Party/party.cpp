@@ -33,7 +33,7 @@ int main(){
         }
     }
     else{
-
+        max_depth = max(max_depth, depth[i]);
     }
 
 
