@@ -11,13 +11,15 @@ int main(){
     for(int i = 1; i <= n; i++){
         cin >> employees[i];
     }
+
     int max_depth = 0;
+
     for(int i = 1; i <= n; i++){
         if(depth[i] == 0){
             int current_employee = i;
-            int current_path_length = 0;
 
             vector<int> path;
+
             while(current_employee != -1 && depth[current_employee] == 0){
                 path.push_back(current_employee);
                 current_employee = employees[current_employee];
@@ -26,14 +28,11 @@ int main(){
             int base_depth = (current_employee == -1) ? 0 : depth[current_employee];
 
             for(int j = path.size() - 1; j >= 0; j--){
-               base_depth++;
-               depth[path[j]] = base_depth;
-               max_depth = max(max_depth, base_depth);
+                base_depth++;
+                depth[path[j]] = base_depth;
+                max_depth = max(max_depth, base_depth);
             }
         }
-    }
-    else{
-        max_depth = max(max_depth, depth[i]);
     }
 
     cout << max_depth << endl;
