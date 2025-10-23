@@ -28,6 +28,7 @@ int main(){
             for(int j = path.size() - 1; j >= 0; j--){
                base_depth++;
                depth[path[j]] = base_depth;
+               max_depth = max(max_depth, base_depth);
             }
         }
     }
