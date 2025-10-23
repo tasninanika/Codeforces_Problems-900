@@ -11,6 +11,7 @@ int main(){
     for(int i = 1; i <= n; i++){
         cin >> employees[i];
     }
+    int max_depth = 0;
 
 
 
