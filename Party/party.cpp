@@ -14,7 +14,7 @@ int main(){
     int max_depth = 0;
     for(int i = 1; i <= n; i++){
         if(depth[i] == 0){
-
+            int current_employee = i;
         }
     }
 
