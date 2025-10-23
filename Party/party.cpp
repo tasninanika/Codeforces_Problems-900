@@ -22,6 +22,8 @@ int main(){
                 path.push_back(current_employee);
                 current_employee = employees[current_employee];
             }
+
+            int base_depth = (current_employee == -1) ? 0 : depth[current_employee];
         }
     }
 
