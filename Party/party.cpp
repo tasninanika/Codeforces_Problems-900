@@ -18,6 +18,9 @@ int main(){
             int current_path_length = 0;
 
             vector<int> path;
+            while(current_employee != -1 && depth[current_employee] == 0){
+
+            }
         }
     }
 
