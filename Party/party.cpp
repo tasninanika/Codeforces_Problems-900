@@ -8,6 +8,10 @@ int main(){
     vector<int> employees(n + 1);
     vector<int> depth(n + 1, 0);
 
+    for(int i = 1; i <= n; i++){
+
+    }
+
 
 
     return 0;
