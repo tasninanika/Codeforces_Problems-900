@@ -11,7 +11,7 @@ int main(){
 
         int result;
         if(n > 0){
-
+            cin >> result;
         }
     }
 
