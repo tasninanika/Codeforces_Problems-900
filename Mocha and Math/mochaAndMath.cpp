@@ -10,6 +10,7 @@ int main(){
         cin >> n;
 
         int result;
+        if(n > 0)
     }
 
 
