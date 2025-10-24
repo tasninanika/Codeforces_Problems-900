@@ -20,6 +20,7 @@ int main(){
 
             result &= a;
         }
+        cout << result << endl;
     }
 
 
