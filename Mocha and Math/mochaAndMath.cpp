@@ -10,7 +10,9 @@ int main(){
         cin >> n;
 
         int result;
-        if(n > 0)
+        if(n > 0){
+
+        }
     }
 
 
