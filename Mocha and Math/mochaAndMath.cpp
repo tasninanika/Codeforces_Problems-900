@@ -13,6 +13,10 @@ int main(){
         if(n > 0){
             cin >> result;
         }
+
+        for(int i = 1; i < n; i++){
+
+        }
     }
 
 
