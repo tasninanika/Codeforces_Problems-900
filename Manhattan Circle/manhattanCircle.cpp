@@ -23,6 +23,7 @@ int main(){
                     min_r = min(min_r, i);
                     max_r = max(max_r, i);
                     min_c = min(min_c, j);
+                    max_c = max(max_c, j);
                 }
             }
         }
