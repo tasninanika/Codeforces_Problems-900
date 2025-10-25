@@ -10,6 +10,7 @@ int main(){
         cin >> n >> m;
 
         int min_r = numeric_limits<int>::max();
+        int max_r = numeric_limits<int>::min();
     }
 
 
