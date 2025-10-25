@@ -20,7 +20,7 @@ int main(){
 
             for(int j = 0; j < m; j++){
                 if(row[j] == '#'){
-
+                    min_r = min(min_r, i);
                 }
             }
         }
