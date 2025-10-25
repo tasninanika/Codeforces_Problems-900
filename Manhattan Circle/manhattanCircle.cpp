@@ -19,7 +19,7 @@ int main(){
             cin >> row;
 
             for(int j = 0; j < m; j++){
-
+                if(row[j] == '#'){}
             }
         }
     }
