@@ -13,6 +13,8 @@ int main(){
         int max_r = numeric_limits<int>::min();
         int min_c = numeric_limits<int>::max();
         int max_c = numeric_limits<int>::min();
+
+        for(int i = 0; i < n; i++){}
     }
 
 
