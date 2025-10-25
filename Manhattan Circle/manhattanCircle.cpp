@@ -27,6 +27,8 @@ int main(){
                 }
             }
         }
+
+        int center_r = (min_r + max_r) / 2 + 1;
     }
 
 
