@@ -22,6 +22,7 @@ int main(){
                 if(row[j] == '#'){
                     min_r = min(min_r, i);
                     max_r = max(max_r, i);
+                    min_c = min(min_c, j);
                 }
             }
         }
