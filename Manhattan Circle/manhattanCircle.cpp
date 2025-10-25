@@ -15,7 +15,7 @@ int main(){
         int max_c = numeric_limits<int>::min();
 
         for(int i = 0; i < n; i++){
-
+            string row;
         }
     }
 
