@@ -30,6 +30,8 @@ int main(){
 
         int center_r = (min_r + max_r) / 2 + 1;
         int center_c = (min_c + max_c) / 2 + 1;
+
+        cout << center_r << " " << center_c << endl;
     }
 
 
