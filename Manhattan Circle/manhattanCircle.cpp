@@ -18,7 +18,9 @@ int main(){
             string row;
             cin >> row;
 
-            for(int j = 0; j < m; j++){}
+            for(int j = 0; j < m; j++){
+
+            }
         }
     }
 
