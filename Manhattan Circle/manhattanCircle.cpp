@@ -12,6 +12,7 @@ int main(){
         int min_r = numeric_limits<int>::max();
         int max_r = numeric_limits<int>::min();
         int min_c = numeric_limits<int>::max();
+        int max_c = numeric_limits<int>::min();
     }
 
 
