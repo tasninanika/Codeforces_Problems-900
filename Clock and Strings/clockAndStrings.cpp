@@ -13,7 +13,7 @@ int main(){
             swap(a, b);
         }
         if(c > d){
-
+            swap(c, d);
         }
     }
 
