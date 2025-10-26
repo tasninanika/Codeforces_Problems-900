@@ -12,7 +12,9 @@ int main(){
         if(a > b){
             swap(a, b);
         }
-        if(c > d)
+        if(c > d){
+
+        }
     }
 
 
