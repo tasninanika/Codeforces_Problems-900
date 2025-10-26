@@ -17,6 +17,7 @@ int main(){
         }
 
         bool c_in_ab = (a < c && c < b);
+        bool d_in_ab = (a < d && d < b);
     }
 
 
