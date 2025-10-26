@@ -15,6 +15,8 @@ int main(){
         if(c > d){
             swap(c, d);
         }
+
+        bool c_in_ab = (a < c && c < b);
     }
 
 
