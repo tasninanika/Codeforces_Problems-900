@@ -22,6 +22,9 @@ int main(){
         if((c_in_ab && !d_in_ab) || (!c_in_ab && d_in_ab)){
             cout << "YES" << endl;
         }
+        else{
+
+        }
     }
 
 
