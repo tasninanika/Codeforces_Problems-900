@@ -20,6 +20,8 @@ int main(){
         bool d_in_ab = (a < d && d < b);
 
         if((c_in_ab && !d_in_ab) || (!c_in_ab && d_in_ab)){
+
+        }
     }
 
 
