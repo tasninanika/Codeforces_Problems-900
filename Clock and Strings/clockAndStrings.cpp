@@ -10,7 +10,7 @@ int main(){
         cin >> a >> b >> c >> d;
 
         if(a > b){
-
+            swap(a, b);
         }
     }
 
