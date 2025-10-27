@@ -7,6 +7,8 @@ int main(){
 
     const int MAX_N = 3000;
 
+    vector<int> distinct_prime_factor_count(MAX_N + 1, 0);
+
 
 
 
