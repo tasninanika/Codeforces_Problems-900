@@ -17,6 +17,8 @@ int main(){
         }
     }
 
+    int almost_prime_result = 0;
+
 
 
 
