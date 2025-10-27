@@ -18,6 +18,7 @@ int main(){
     }
 
     int almost_prime_result = 0;
+    for(int i = 1; i <= n; i++){
 
 
 
