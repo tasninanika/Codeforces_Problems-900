@@ -20,7 +20,7 @@ int main(){
     int almost_prime_result = 0;
     for(int i = 1; i <= n; i++){
         if(distinct_prime_factor_count[i] == 2){
-
+            almost_prime_result++;
         }
     }
 
