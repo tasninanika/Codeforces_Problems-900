@@ -9,6 +9,8 @@ int main(){
 
     vector<int> distinct_prime_factor_count(MAX_N + 1, 0);
 
+    for(int i = 2; i <= MAX_N; i++){
+
 
 
 
