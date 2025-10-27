@@ -11,7 +11,7 @@ int main(){
 
     for(int i = 2; i <= MAX_N; i++){
         if(distinct_prime_factor_count[i] == 0){
-
+            for(int j = i; j <= MAX_N; j += i){
         }
     }
 
