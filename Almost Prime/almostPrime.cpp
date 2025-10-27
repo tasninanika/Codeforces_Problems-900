@@ -24,7 +24,7 @@ int main(){
         }
     }
 
-
+    cout << almost_prime_result << endl;
 
 
     return 0;
