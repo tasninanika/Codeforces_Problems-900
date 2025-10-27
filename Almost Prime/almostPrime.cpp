@@ -5,6 +5,8 @@ int main(){
     int n;
     cin >> n;
 
+    const int MAX_N = 3000;
+
 
 
 
