@@ -17,7 +17,9 @@ int main(){
         long long total_time = b;
         long long max_increase = a - 1;
 
-        for(int i = 0; i < n; i++)
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
 
