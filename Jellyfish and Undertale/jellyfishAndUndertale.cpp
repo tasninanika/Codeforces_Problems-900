@@ -10,6 +10,7 @@ int main(){
         cin >> a >> b >> n;
 
         vector<long long> x(n);
+        for(int i = 0; i < n; i++){
     }
 
 
