@@ -11,6 +11,8 @@ int main(){
 
         vector<long long> x(n);
         for(int i = 0; i < n; i++){
+
+        }
     }
 
 
