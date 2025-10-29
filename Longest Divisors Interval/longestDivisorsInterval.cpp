@@ -9,7 +9,7 @@ int main(){
         long long n;
         cin >> n;
 
-        long long k;
+        long long k = 1;
     }
 
 
