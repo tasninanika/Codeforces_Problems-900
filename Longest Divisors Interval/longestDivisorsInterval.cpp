@@ -13,6 +13,8 @@ int main(){
         while(n % k == 0){
             k++;
         }
+
+        cout << k - 1 << endl;
     }
 
 
