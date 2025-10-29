@@ -10,7 +10,9 @@ int main(){
         cin >> n;
 
         long long k = 1;
-        while(n % k == 0)
+        while(n % k == 0){
+
+        }
     }
 
 
