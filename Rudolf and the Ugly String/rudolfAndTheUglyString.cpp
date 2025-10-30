@@ -23,7 +23,7 @@ int main(){
                 i += 2;
             }
             else if(i + 2 < n && s.substr(i, 3) == "pie"){
-
+                removals++;
             }
         }
     }
