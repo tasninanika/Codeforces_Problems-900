@@ -26,6 +26,7 @@ int main(){
                 removals++;
                 i += 2;
             }
+            else{
         }
     }
 
