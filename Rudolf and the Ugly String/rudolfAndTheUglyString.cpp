@@ -18,6 +18,7 @@ int main(){
                 removals++;
                 i += 3;
             }
+            else if(i + 2 < n && s.substr(i, 3) == "map"){
         }
     }
 
