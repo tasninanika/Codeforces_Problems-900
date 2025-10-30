@@ -16,6 +16,7 @@ int main(){
         for(int i = 0; i < n; ){
             if(i + 4 < n && s.substr(i, 5) == "mapie"){
                 removals++;
+                i += 3;
             }
         }
     }
