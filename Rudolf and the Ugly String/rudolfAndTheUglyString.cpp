@@ -30,6 +30,7 @@ int main(){
                 i++;
             }
         }
+        cout << removals << endl;
     }
 
 
