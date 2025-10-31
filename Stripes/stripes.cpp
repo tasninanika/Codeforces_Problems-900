@@ -10,6 +10,9 @@ int main(){
         for(int i = 0; i < 8; i++){
             cin >> grid[i];
         }
+
+        bool solved = false;
+
         for(int i = 0; i < 8; i++){
             bool red_win = true;
             for(int j = 0; j < 8; j++){
@@ -19,10 +22,16 @@ int main(){
                 }
             }
             if(red_win){
-                cout << "R" << endl;
-                return;
+                cout << "R" << '\n';
+                solved = true;
+                break;
             }
         }
+
+        if (solved) {
+            continue;
+        }
+
         for(int j = 0; j < 8; j++){
             bool blue_win = true;
             for(int i = 0; i < 8; i++){
@@ -32,12 +41,11 @@ int main(){
                 }
             }
             if(blue_win){
-                cout << "B" << endl;
-                return;
+                cout << "B" << '\n';
+                break;
             }
         }
     }
-
 
     return 0;
 }
