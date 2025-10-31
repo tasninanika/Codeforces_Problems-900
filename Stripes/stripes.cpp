@@ -32,7 +32,7 @@ int main(){
                 }
             }
             if(blue_win){
-
+                cout << "B" << endl;
             }
         }
     }
