@@ -8,7 +8,7 @@ int main(){
     while(t--){
         vector<string> grid(8);
         for(int i = 0; i < 8; i++){
-
+            cin >> grid[i];
         }
     }
 
