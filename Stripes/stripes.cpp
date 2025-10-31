@@ -18,6 +18,7 @@ int main(){
                     break;
                 }
             }
+            if(red_win){
         }
     }
 
