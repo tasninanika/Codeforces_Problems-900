@@ -14,6 +14,8 @@ int main(){
             bool red_win = true;
             for(int j = 0; j < 8; j++){
                 if(grid[i][j] != 'R'){
+
+                }
             }
         }
     }
