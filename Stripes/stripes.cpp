@@ -27,6 +27,8 @@ int main(){
             bool blue_win = true;
             for(int i = 0; i < 8; i++){
                 if(grid[i][j] != 'B'){
+
+                }
             }
         }
     }
