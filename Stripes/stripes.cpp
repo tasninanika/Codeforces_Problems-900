@@ -6,7 +6,7 @@ int main(){
     cin >> t;
 
     while(t--){
-
+        vector<string> grid(8);
     }
 
 
