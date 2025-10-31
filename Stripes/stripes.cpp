@@ -19,7 +19,7 @@ int main(){
                 }
             }
             if(red_win){
-
+                cout << "R" << endl;
             }
         }
     }
