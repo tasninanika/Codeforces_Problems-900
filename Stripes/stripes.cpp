@@ -32,6 +32,8 @@ int main(){
                 }
             }
             if(blue_win){
+
+            }
         }
     }
 
