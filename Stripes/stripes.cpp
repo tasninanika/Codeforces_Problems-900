@@ -24,7 +24,7 @@ int main(){
             }
         }
         for(int j = 0; j < 8; j++){
-
+            bool blue_win = true;
         }
     }
 
