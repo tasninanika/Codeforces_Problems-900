@@ -17,6 +17,7 @@ int main(){
             cin >> trace_value;
 
             char next_char = 'a' + count[trace_value];
+            result += next_char;
         }
     }
 
