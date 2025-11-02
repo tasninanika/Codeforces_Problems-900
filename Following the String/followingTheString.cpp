@@ -11,6 +11,8 @@ int main(){
 
         vector<int> count(n + 1, 0);
         string result = "";
+
+        for(int i = 0; i < n; i++){
     }
 
 
