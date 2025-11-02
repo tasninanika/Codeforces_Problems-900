@@ -10,6 +10,7 @@ int main(){
         cin >> n;
 
         vector<int> count(n + 1, 0);
+        string result = "";
     }
 
 
