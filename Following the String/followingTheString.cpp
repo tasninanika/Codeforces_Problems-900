@@ -18,6 +18,7 @@ int main(){
 
             char next_char = 'a' + count[trace_value];
             result += next_char;
+            count[trace_value]++;
         }
     }
 
