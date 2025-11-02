@@ -20,6 +20,7 @@ int main(){
             result += next_char;
             count[trace_value]++;
         }
+        cout << result << "\n";
     }
 
 
