@@ -15,6 +15,8 @@ int main(){
         for(int i = 0; i < n; i++){
             int trace_value;
             cin >> trace_value;
+
+            char next_char = 'a' + count[trace_value];
         }
     }
 
