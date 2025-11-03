@@ -34,6 +34,7 @@ int main(){
         if(possible){
             cout << operations << endl;
         }
+        else{
     }
 
 
