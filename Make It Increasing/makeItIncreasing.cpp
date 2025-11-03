@@ -30,8 +30,9 @@ int main(){
                 operations++;
             }
         }
-        if(possible){
 
+        if(possible){
+            cout << operations << endl;
         }
     }
 
