@@ -24,6 +24,8 @@ int main(){
                 possible = false;
                 break;
             }
+
+            while(a[i] > required_max){
         }
     }
 
