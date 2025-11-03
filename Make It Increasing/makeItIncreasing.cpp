@@ -30,6 +30,7 @@ int main(){
                 operations++;
             }
         }
+        if(possible){
     }
 
 
