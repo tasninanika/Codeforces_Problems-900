@@ -35,6 +35,8 @@ int main(){
             cout << operations << endl;
         }
         else{
+
+        }
     }
 
 
