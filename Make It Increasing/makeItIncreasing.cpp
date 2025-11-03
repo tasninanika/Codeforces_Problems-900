@@ -21,7 +21,7 @@ int main(){
             long long required_max = a[i + 1] - 1;
 
             if(required_max < 0){
-
+                possible = false;
             }
         }
     }
