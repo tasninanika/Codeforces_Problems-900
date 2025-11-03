@@ -22,6 +22,7 @@ int main(){
 
             if(required_max < 0){
                 possible = false;
+                break;
             }
         }
     }
