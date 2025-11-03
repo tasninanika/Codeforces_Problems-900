@@ -15,6 +15,7 @@ int main(){
         }
 
         long long operations = 0;
+        bool possible = true;
     }
 
 
