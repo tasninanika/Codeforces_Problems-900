@@ -19,6 +19,8 @@ int main(){
 
         for(int i = n - 2; i >= 0; i--){
             long long required_max = a[i + 1] - 1;
+
+            if(required_max < 0){
         }
     }
 
