@@ -18,7 +18,7 @@ int main(){
         bool possible = true;
 
         for(int i = n - 2; i >= 0; i--){
-
+            long long required_max = a[i + 1] - 1;
         }
     }
 
