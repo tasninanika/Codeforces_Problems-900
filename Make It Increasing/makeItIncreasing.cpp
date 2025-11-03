@@ -27,6 +27,7 @@ int main(){
 
             while(a[i] > required_max){
                 a[i] /= 2;
+                operations++;
             }
         }
     }
