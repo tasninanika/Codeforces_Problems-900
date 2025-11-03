@@ -26,6 +26,8 @@ int main(){
             }
 
             while(a[i] > required_max){
+
+            }
         }
     }
 
