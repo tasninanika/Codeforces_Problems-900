@@ -12,7 +12,9 @@ int main(){
         long long orange_size;
         cin >> orange_size;
 
-        if(orange_size <= l){}
+        if(orange_size <= l){
+
+        }
     }
 
 
