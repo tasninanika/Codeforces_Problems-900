@@ -5,6 +5,8 @@ int main(){
     long long n, b, l;
     cin >> n >> b >> l;
 
+    long long current_size = 0;
+
 
 
     return 0;
