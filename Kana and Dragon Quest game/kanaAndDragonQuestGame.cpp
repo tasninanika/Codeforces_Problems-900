@@ -10,7 +10,7 @@ int main(){
         cin >> x >> n >> m;
 
         while(n > 0 && x > 20){
-
+            x = x / 2 + 10;
         }
     }
 
