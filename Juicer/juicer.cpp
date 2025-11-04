@@ -6,6 +6,7 @@ int main(){
     cin >> n >> b >> l;
 
     long long current_size = 0;
+    int waste_count = 0;
 
 
 
