@@ -9,7 +9,7 @@ int main(){
     int waste_count = 0;
 
     for(int i = 0; i < n; i++){
-
+        long long orange_size;
     }
 
 
