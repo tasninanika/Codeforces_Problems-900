@@ -1,28 +1,28 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
 int main(){
-    long long n, b, l;
-    cin >> n >> b >> l;
+    long long n, b, d;
+    cin >> n >> b >> d;
 
     long long current_size = 0;
     int waste_count = 0;
 
-    for(int i = 0; i < n; i++){
+    for(long long i = 0; i < n; i++){
         long long orange_size;
         cin >> orange_size;
 
-        if(orange_size <= l){
+        if(orange_size <= b){
             current_size += orange_size;
 
-            if(current_size > b){
+            if(current_size > d){
                 waste_count++;
                 current_size = 0;
             }
         }
     }
 
-    cout << waste_count << endl;
+    cout << waste_count << "\n";
 
     return 0;
 }
