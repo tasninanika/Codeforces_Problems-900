@@ -22,7 +22,7 @@ int main(){
         }
     }
 
-
+    cout << waste_count << endl;
 
     return 0;
 }
