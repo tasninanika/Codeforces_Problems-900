@@ -17,6 +17,7 @@ int main(){
         if(x <= m * 10){
             cout << "YES" << endl;
         }
+        else{
     }
 
 
