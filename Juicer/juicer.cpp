@@ -8,6 +8,8 @@ int main(){
     long long current_size = 0;
     int waste_count = 0;
 
+    for(int i = 0; i < n; i++){}
+
 
 
     return 0;
