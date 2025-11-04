@@ -13,7 +13,7 @@ int main(){
         cin >> orange_size;
 
         if(orange_size <= l){
-
+            current_size += orange_size;
         }
     }
 
