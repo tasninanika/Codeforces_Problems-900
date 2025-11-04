@@ -17,6 +17,7 @@ int main(){
 
             if(current_size > b){
                 waste_count++;
+                current_size = 0;
             }
         }
     }
