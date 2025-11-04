@@ -15,7 +15,9 @@ int main(){
         if(orange_size <= l){
             current_size += orange_size;
 
-            if(current_size > b){}
+            if(current_size > b){
+
+            }
         }
     }
 
