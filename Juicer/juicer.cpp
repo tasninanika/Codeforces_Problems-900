@@ -11,6 +11,8 @@ int main(){
     for(int i = 0; i < n; i++){
         long long orange_size;
         cin >> orange_size;
+
+        if(orange_size <= l){}
     }
 
 
