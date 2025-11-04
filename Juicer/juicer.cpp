@@ -16,7 +16,7 @@ int main(){
             current_size += orange_size;
 
             if(current_size > b){
-
+                waste_count++;
             }
         }
     }
