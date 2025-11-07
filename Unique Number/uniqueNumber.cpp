@@ -11,7 +11,7 @@ int main(){
 
         if(x > 45){
             cout << -1 << endl;
-            return;
+            continue;
         }
 
         string result = "";
