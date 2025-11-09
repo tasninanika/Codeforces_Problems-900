@@ -18,7 +18,7 @@ int main() {
             if(a[j] > a[j - 1] && a[j] > a[j + 1]){
                 cout << "YES\n";
                 cout << j << " " << j + 1 << " " << j + 2 << "\n";
-                continue;
+                break;
             }
         }
 
