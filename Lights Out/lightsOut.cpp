@@ -6,3 +6,10 @@ void toggle(int final_grid[3][3], int r, int c){
         final_grid[r][c] = 1 - final_grid[r][c];
     }
 }
+
+int main(){
+
+
+
+
+}
