@@ -16,7 +16,9 @@ int main(){
     };
 
     for(int i = 0; i < 3; i++){
-        cin >> input_grid[i][j];
+        for (int j = 0; j < 3; j++){
+            cin >> input_grid[i][j];
+        }
     }
 
 
