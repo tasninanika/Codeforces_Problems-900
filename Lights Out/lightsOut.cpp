@@ -27,6 +27,8 @@ int main(){
                 toggle(final_grid, i, j);
                 toggle(final_grid, i - 1, j);
                 toggle(final_grid, i + 1, j);
+                toggle(final_grid, i, j - 1);
+                toggle(final_grid, i, j + 1);
             }
         }
     }
