@@ -26,6 +26,7 @@ int main(){
             if(input_grid[i][j] % 2 != 0){
                 toggle(final_grid, i, j);
                 toggle(final_grid, i - 1, j);
+                toggle(final_grid, i + 1, j);
             }
         }
     }
