@@ -37,6 +37,7 @@ int main(){
         for(int j = 0; j < 3; j++){
             cout << final_grid[i][j];
         }
+        cout << "\n";
     }
 
 
