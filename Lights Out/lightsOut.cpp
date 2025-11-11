@@ -8,7 +8,7 @@ void toggle(int final_grid[3][3], int r, int c){
 }
 
 int main(){
-
+    int input_grid[3][3];
 
 
     return 0;
