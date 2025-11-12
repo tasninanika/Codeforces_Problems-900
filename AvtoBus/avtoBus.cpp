@@ -8,6 +8,8 @@ int main(){
     while(t--){
         long long n;
         cin >> n;
+
+        if(n % 2 != 0 || n < 4){}
     }
 
 
