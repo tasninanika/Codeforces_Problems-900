@@ -9,7 +9,9 @@ int main(){
         long long n;
         cin >> n;
 
-        if(n % 2 != 0 || n < 4){}
+        if(n % 2 != 0 || n < 4){
+
+        }
     }
 
 
