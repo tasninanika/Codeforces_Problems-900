@@ -13,6 +13,8 @@ int main(){
             cout << -1 << endl;
             continue;
         }
+
+        long long min_buses;
     }
 
 
