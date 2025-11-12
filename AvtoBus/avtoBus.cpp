@@ -20,6 +20,8 @@ int main(){
         max_buses = n / 4;
 
         min_buses = (n + 4) / 6;
+
+        cout << min_buses << " " << max_buses << endl;
     }
 
 
