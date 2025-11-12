@@ -24,9 +24,5 @@ int main(){
         cout << min_buses << " " << max_buses << endl;
     }
 
-
-
-
-
     return 0;
 }
