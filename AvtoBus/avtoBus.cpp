@@ -11,6 +11,7 @@ int main(){
 
         if(n % 2 != 0 || n < 4){
             cout << -1 << endl;
+            continue;
         }
     }
 
