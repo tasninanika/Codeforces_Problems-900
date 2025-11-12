@@ -18,6 +18,8 @@ int main(){
         long long max_buses;
 
         max_buses = n / 4;
+
+        min_buses = (n + 4) / 6;
     }
 
 
