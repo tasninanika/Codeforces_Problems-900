@@ -15,6 +15,7 @@ int main(){
         }
 
         long long min_buses;
+        long long max_buses;
     }
 
 
