@@ -13,6 +13,7 @@ int main(){
         int n;
         cin >> n;
         string s;
+        cin >> s;
     }
 
 
