@@ -26,6 +26,7 @@ int main(){
                 result += s[i - 2];
                 i -= 3;
             }
+            else if(i - 1 >= 0 && !is_vowel(s[i - 1])){}
         }
     }
 
