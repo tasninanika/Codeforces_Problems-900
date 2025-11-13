@@ -56,6 +56,8 @@ int main(){
         if(i >= 0){
             result += '.';
         }
+
+        reverse(result.begin(), result.end());
     }
 
 
