@@ -47,6 +47,10 @@ int main(){
                  result += s[i - 1];
                  i -= 2;
                 }
+                else {
+                 result += s[i];
+                 i -= 1;
+                }
             }
         }
     }
