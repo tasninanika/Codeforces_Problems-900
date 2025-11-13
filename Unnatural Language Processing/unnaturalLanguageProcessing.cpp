@@ -7,6 +7,7 @@ bool is_vowel(char c){
 
 int main(){
     int t;
+    cin >> t;
 
 
 
