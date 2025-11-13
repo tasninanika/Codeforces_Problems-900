@@ -58,6 +58,7 @@ int main(){
         }
 
         reverse(result.begin(), result.end());
+        cout << result << "\n";
     }
 
 
