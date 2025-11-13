@@ -17,6 +17,7 @@ int main(){
         cin >> s;
 
         string result = "";
+        int i = n - 1;
     }
 
 
