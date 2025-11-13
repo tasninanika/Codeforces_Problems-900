@@ -42,7 +42,11 @@ int main(){
                 }
             }
             else{
-
+                if (i - 1 >= 0){
+                 result += s[i];
+                 result += s[i - 1];
+                 i -= 2;
+                }
             }
         }
     }
