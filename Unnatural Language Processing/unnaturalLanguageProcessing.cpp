@@ -15,6 +15,8 @@ int main(){
 
         string s;
         cin >> s;
+
+        string result = "";
     }
 
 
