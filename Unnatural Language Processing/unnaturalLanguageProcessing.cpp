@@ -22,6 +22,7 @@ int main(){
         while(i >= 0){
             if(i - 2 >= 0 && !is_vowel(s[i - 2]) && is_vowel(s[i - 1])){
                 result += s[i];
+                result += s[i - 1];
             }
         }
     }
