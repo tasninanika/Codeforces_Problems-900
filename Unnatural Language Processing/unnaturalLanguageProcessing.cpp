@@ -18,6 +18,10 @@ int main(){
 
         string result = "";
         int i = n - 1;
+
+        while(i >= 0){
+
+        }
     }
 
 
