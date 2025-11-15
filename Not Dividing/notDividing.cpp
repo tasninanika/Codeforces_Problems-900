@@ -14,7 +14,7 @@ int main(){
             cin >> a[i];
 
             if(a[i] == 1){
-
+                a[i] = 2;
             }
         }
     }
