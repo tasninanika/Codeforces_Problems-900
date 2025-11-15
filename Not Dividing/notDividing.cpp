@@ -28,6 +28,9 @@ int main(){
             if(i == n - 1){
                 cout << a[i];
             }
+            else{
+
+            }
         }
     }
 
