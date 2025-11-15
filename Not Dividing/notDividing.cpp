@@ -29,7 +29,7 @@ int main(){
                 cout << a[i];
             }
             else{
-
+                cout << a[i] << " ";
             }
         }
     }
