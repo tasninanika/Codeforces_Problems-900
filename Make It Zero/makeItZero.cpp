@@ -21,6 +21,7 @@ int main(){
         }
         else{
             cout << 4 << "\n";
+            cout << 1 << " " << n - 1 << "\n";
         }
     }
 
