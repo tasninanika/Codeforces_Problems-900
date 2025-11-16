@@ -13,6 +13,10 @@ int main(){
         for(int i = 0; i < n; i++){
             cin >> a[i];
         }
+
+        if(n % 2 == 0){
+
+        }
     }
 
 
