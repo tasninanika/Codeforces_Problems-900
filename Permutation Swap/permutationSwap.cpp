@@ -1,6 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+int custom_gcd(int a, int b) {
+    while (b) {
+        a %= b;
+        swap(a, b);
+    }
+    return a;
+}
+
 int main(){
     int t;
     cin >> t;
@@ -11,7 +19,7 @@ int main(){
 
         vector<int> p(n);
         for(int i = 0; i < n; i++){
-            cin >> p[i];
+            if (!(cin >> p[i])) break;
         }
 
         int result_gcd = 0;
