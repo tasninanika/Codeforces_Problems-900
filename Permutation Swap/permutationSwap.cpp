@@ -32,7 +32,7 @@ int main(){
                     result_gcd = displacement;
                 }
                 else {
-                    result_gcd = gcd(result_gcd, displacement);
+                    result_gcd = custom_gcd(result_gcd, displacement);
                 }
             }
         }
