@@ -22,6 +22,8 @@ int main(){
         }
 
         long long min_sum = (total_sum + x - 1) / x;
+
+        cout << min_sum << " " << max_sum << "\n";
     }
 
 
