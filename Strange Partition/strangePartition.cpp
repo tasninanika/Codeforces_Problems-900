@@ -11,6 +11,7 @@ int main(){
         cin >> n >> x
 
         long long total_sum = 0;
+        long long max_sum = 0;
     }
 
 
