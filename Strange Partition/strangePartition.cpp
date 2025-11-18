@@ -9,6 +9,8 @@ int main(){
         int n;
         long long x;
         cin >> n >> x
+
+        long long total_sum = 0;
     }
 
 
