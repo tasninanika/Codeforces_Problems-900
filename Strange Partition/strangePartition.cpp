@@ -13,7 +13,9 @@ int main(){
         long long total_sum = 0;
         long long max_sum = 0;
 
-        for(int i = 0; i < n; i++){}
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
 
