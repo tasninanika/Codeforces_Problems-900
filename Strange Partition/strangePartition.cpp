@@ -26,8 +26,5 @@ int main(){
         cout << min_sum << " " << max_sum << "\n";
     }
 
-
-
-
     return 0;
 }
