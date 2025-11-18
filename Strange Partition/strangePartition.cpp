@@ -14,7 +14,7 @@ int main(){
         long long max_sum = 0;
 
         for(int i = 0; i < n; i++){
-
+            long long a;
         }
     }
 
