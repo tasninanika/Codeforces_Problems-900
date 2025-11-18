@@ -15,7 +15,7 @@ int main(){
 
         for(int i = 0; i < n; i++){
             long long a;
-            cin >> a
+            cin >> a;
 
             total_sum += a;
             max_sum += (a + x - 1) / x;
