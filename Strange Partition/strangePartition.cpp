@@ -16,6 +16,8 @@ int main(){
         for(int i = 0; i < n; i++){
             long long a;
             cin >> a
+
+            total_sum += a;
         }
     }
 
