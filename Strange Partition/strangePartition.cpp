@@ -20,6 +20,8 @@ int main(){
             total_sum += a;
             max_sum += (a + x - 1) / x;
         }
+
+        long long min_sum = (total_sum + x - 1) / x;
     }
 
 
