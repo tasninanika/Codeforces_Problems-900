@@ -8,7 +8,7 @@ int main(){
     while(t--){
         int n;
         long long x;
-        cin >> n >> x
+        cin >> n >> x;
 
         long long total_sum = 0;
         long long max_sum = 0;
