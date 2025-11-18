@@ -18,6 +18,7 @@ int main(){
             cin >> a
 
             total_sum += a;
+            max_sum += (a + x - 1) / x;
         }
     }
 
