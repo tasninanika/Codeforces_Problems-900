@@ -15,7 +15,9 @@ int main(){
 
         set<pair<long long, long long>> k_moves;
 
-        vector<pair<long long, long long>> d = {}
+        vector<pair<long long, long long>> d = {
+
+        }
     }
 
 
