@@ -18,7 +18,7 @@ int main(){
         vector<pair<long long, long long>> d = {
             {a, b}, {a, -b}, {-a, b}, {-a, -b},
             {b, a}, {b, -a}, {-b, a}, {-b, -a}
-        }
+        };
 
         for (const auto& move : d) {
             k_moves.insert({xk + move.first, yk + move.second});
