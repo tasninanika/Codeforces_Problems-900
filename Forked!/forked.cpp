@@ -29,6 +29,10 @@ int main(){
         for (const auto& move : d) {
             long long qx = xq + move.first;
             long long qy = yq + move.second;
+
+            if (k_moves.count({qx, qy})) {
+                common_count++;
+            }
         }
     }
 
