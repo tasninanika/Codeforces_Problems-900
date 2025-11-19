@@ -25,6 +25,10 @@ int main(){
         }
 
         long long common_count = 0;
+
+        for (const auto& move : d) {
+
+        }
     }
 
 
