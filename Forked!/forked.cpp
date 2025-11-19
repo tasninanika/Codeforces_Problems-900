@@ -10,6 +10,8 @@ int main(){
         cin >> a >> b;
         long long xk, yk;
         cin >> xk >> yk;
+        long long xq, yq;
+        cin >> xq >> yq;
     }
 
 
