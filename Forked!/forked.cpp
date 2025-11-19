@@ -14,6 +14,8 @@ int main(){
         cin >> xq >> yq;
 
         set<pair<long long, long long>> k_moves;
+
+        vector<pair<long long, long long>> d = {}
     }
 
 
