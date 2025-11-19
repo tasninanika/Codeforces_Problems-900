@@ -23,6 +23,8 @@ int main(){
         for (const auto& move : d) {
             k_moves.insert({xk + move.first, yk + move.second});
         }
+
+        long long common_count = 0;
     }
 
 
