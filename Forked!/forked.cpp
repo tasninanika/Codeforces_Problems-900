@@ -8,6 +8,7 @@ int main(){
     while(t--){
         long long a, b;
         cin >> a >> b;
+        long long xk, yk;
     }
 
 
