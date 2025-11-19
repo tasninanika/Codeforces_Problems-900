@@ -15,31 +15,40 @@ int main(){
 
         set<pair<long long, long long>> k_moves;
 
-        vector<pair<long long, long long>> d = {
-            {a, b}, {a, -b}, {-a, b}, {-a, -b},
-            {b, a}, {b, -a}, {-b, a}, {-b, -a}
-        };
+        k_moves.insert({xk + a, yk + b});
+        k_moves.insert({xk + a, yk - b});
+        k_moves.insert({xk - a, yk + b});
+        k_moves.insert({xk - a, yk - b});
 
-        for (const auto& move : d) {
-            k_moves.insert({xk + move.first, yk + move.second});
-        }
+        k_moves.insert({xk + b, yk + a});
+        k_moves.insert({xk + b, yk - a});
+        k_moves.insert({xk - b, yk + a});
+        k_moves.insert({xk - b, yk - a});
+
+
+        set<pair<long long, long long>> q_moves;
+
+        q_moves.insert({xq + a, yq + b});
+        q_moves.insert({xq + a, yq - b});
+        q_moves.insert({xq - a, yq + b});
+        q_moves.insert({xq - a, yq - b});
+
+        q_moves.insert({xq + b, yq + a});
+        q_moves.insert({xq + b, yq - a});
+        q_moves.insert({xq - b, yq + a});
+        q_moves.insert({xq - b, yq - a});
+
 
         long long common_count = 0;
 
-        for (const auto& move : d) {
-            long long qx = xq + move.first;
-            long long qy = yq + move.second;
-
-            if (k_moves.count({qx, qy})) {
+        for (const auto& q_pos : q_moves) {
+            if (k_moves.count(q_pos)) {
                 common_count++;
             }
         }
 
         cout << common_count << "\n";
     }
-
-
-
 
     return 0;
 }
