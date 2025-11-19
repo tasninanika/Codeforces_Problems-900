@@ -34,6 +34,8 @@ int main(){
                 common_count++;
             }
         }
+
+        cout << common_count << "\n";
     }
 
 
