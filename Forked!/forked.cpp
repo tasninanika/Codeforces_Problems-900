@@ -12,6 +12,8 @@ int main(){
         cin >> xk >> yk;
         long long xq, yq;
         cin >> xq >> yq;
+
+        set<pair<long long, long long>> k_moves;
     }
 
 
