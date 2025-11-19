@@ -16,7 +16,8 @@ int main(){
         set<pair<long long, long long>> k_moves;
 
         vector<pair<long long, long long>> d = {
-
+            {a, b}, {a, -b}, {-a, b}, {-a, -b},
+            {b, a}, {b, -a}, {-b, a}, {-b, -a}
         }
     }
 
