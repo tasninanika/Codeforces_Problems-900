@@ -27,7 +27,8 @@ int main(){
         long long common_count = 0;
 
         for (const auto& move : d) {
-
+            long long qx = xq + move.first;
+            long long qy = yq + move.second;
         }
     }
 
