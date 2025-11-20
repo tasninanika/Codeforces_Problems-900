@@ -11,6 +11,7 @@ int main(){
 
         vector<int> a(n);
         vector<int> evens;
+        vector<int> odds;
     }
 
 
