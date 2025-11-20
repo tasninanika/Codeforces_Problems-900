@@ -13,7 +13,9 @@ int main(){
         vector<int> evens;
         vector<int> odds;
 
-        for(int i = 0; i < n; i++){}
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
 
