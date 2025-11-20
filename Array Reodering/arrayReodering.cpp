@@ -10,6 +10,7 @@ int main(){
         cin >> n;
 
         vector<int> a(n);
+        vector<int> evens;
     }
 
 
