@@ -20,7 +20,7 @@ int main(){
                 evens.push_back(a[i]);
             }
             else{
-
+                odds.push_back(a[i]);
             }
         }
     }
