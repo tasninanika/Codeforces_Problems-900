@@ -23,6 +23,8 @@ int main(){
                 odds.push_back(a[i]);
             }
         }
+
+        vector<int> sorted_a = evens;
     }
 
 
