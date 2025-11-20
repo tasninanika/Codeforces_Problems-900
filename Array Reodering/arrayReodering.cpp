@@ -19,6 +19,9 @@ int main(){
             if(a[i] % 2 == 0){
                 evens.push_back(a[i]);
             }
+            else{
+
+            }
         }
     }
 
