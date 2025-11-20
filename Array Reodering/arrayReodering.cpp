@@ -17,7 +17,7 @@ int main(){
             cin >> a[i];
 
             if(a[i] % 2 == 0){
-
+                evens.push_back(a[i]);
             }
         }
     }
