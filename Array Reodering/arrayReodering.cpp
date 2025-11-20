@@ -26,6 +26,8 @@ int main(){
 
         vector<int> sorted_a = evens;
         sorted_a.insert(sorted_a.end(), odds.begin(), odds.end());
+
+        int count = 0;
     }
 
 
