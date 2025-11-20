@@ -28,6 +28,9 @@ int main(){
         sorted_a.insert(sorted_a.end(), odds.begin(), odds.end());
 
         int count = 0;
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
 
