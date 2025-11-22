@@ -8,6 +8,8 @@ int main(){
     while(t--){
         int n, m, k;
         cin >> n >> m >> k;
+
+        for(int i = n; i > m; i--){}
     }
 
 
