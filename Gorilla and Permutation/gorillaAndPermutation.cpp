@@ -12,6 +12,8 @@ int main(){
         for(int i = n; i > m; i--){
             cout << i << " ";
         }
+
+        for(int i = 1; i <= m; i++){
     }
 
 
