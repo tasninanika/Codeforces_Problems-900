@@ -9,7 +9,9 @@ int main(){
         int n, m, k;
         cin >> n >> m >> k;
 
-        for(int i = n; i > m; i--){}
+        for(int i = n; i > m; i--){
+
+        }
     }
 
 
