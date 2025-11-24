@@ -13,7 +13,7 @@ int main(){
         int min_sleep = 1440;
 
         for(int i = 0; i < n; i++){
-
+            int h, m;
         }
     }
 
