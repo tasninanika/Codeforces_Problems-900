@@ -10,6 +10,7 @@ int main(){
         cin >> n >> H >> M;
 
         int bedtime_minutes = H * 60 + M;
+        int min_sleep = 1440;
     }
 
 
