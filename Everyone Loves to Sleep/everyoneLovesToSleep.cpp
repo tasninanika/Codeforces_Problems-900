@@ -15,6 +15,8 @@ int main(){
         for(int i = 0; i < n; i++){
             int h, m;
             cin >> h >> m;
+
+            int alarm_minutes = h * 60 + m;
         }
     }
 
