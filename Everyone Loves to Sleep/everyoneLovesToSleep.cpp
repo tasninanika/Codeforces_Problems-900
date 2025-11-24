@@ -22,6 +22,8 @@ int main(){
             if(diff < 0){
                 diff += 1440;
             }
+
+            min_sleep = min(min_sleep, diff);
         }
     }
 
