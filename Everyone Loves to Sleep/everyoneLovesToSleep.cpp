@@ -20,7 +20,7 @@ int main(){
             int diff = alarm_minutes - bedtime_minutes;
 
             if(diff < 0){
-
+                diff += 1440;
             }
         }
     }
