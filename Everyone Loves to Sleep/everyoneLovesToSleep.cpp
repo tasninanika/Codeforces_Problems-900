@@ -11,6 +11,10 @@ int main(){
 
         int bedtime_minutes = H * 60 + M;
         int min_sleep = 1440;
+
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
 
