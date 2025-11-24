@@ -19,7 +19,9 @@ int main(){
             int alarm_minutes = h * 60 + m;
             int diff = alarm_minutes - bedtime_minutes;
 
-            if(diff < 0){}
+            if(diff < 0){
+
+            }
         }
     }
 
