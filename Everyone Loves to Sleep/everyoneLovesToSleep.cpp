@@ -25,6 +25,8 @@ int main(){
 
             min_sleep = min(min_sleep, diff);
         }
+
+        cout << min_sleep / 60 << " " << min_sleep % 60 << endl;
     }
 
 
