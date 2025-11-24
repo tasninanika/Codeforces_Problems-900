@@ -17,6 +17,7 @@ int main(){
             cin >> h >> m;
 
             int alarm_minutes = h * 60 + m;
+            int diff = alarm_minutes - bedtime_minutes;
         }
     }
 
