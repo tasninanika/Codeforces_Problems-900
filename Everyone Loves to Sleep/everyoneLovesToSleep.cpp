@@ -8,6 +8,8 @@ int main(){
     while(t--){
         int n, H, M;
         cin >> n >> H >> M;
+
+        int bedtime_minutes = H * 60 + M;
     }
 
 
