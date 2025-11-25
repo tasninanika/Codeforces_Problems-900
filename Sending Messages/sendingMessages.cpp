@@ -22,7 +22,9 @@ int main(){
             prev_time = m[i];
         }
 
-        if(f > 0){}
+        if(f > 0){
+
+        }
     }
 
 
