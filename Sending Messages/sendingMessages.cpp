@@ -19,6 +19,7 @@ int main(){
         for(int i = 0; i < n; i++){
             long long diff = m[i] - prev_time;
             f -= min(diff * a, b);
+            prev_time = m[i];
         }
     }
 
