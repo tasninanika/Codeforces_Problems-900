@@ -21,6 +21,8 @@ int main(){
             f -= min(diff * a, b);
             prev_time = m[i];
         }
+
+        if(f > 0){}
     }
 
 
