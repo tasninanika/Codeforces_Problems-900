@@ -15,6 +15,8 @@ int main(){
         }
 
         long long prev_time = 0;
+
+        for(int i = 0; i < n; i++){}
     }
 
 
