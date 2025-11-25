@@ -8,6 +8,8 @@ int main(){
     while(t--){
         long long n, f, a, b;
         cin >> n >> f >> a >> b;
+
+        vector<long long> m(n);
     }
 
 
