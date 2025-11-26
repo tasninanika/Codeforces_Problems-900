@@ -16,6 +16,7 @@ int main(){
 
         if(n == 1){
             cout << 0 << "\n";
+            return;
         }
     }
 
