@@ -32,6 +32,8 @@ int main(){
         for(int i = 0; i < n - 1; i++){
             ans = max(ans, a[n - 1] - a[i]);
         }
+
+        cout << ans << "\n";
     }
 
 
