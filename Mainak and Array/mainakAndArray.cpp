@@ -16,7 +16,7 @@ int main(){
 
         if(n == 1){
             cout << 0 << "\n";
-            return;
+            break;
         }
 
         int ans = a[n - 1] - a[0];
