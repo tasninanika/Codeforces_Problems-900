@@ -28,6 +28,8 @@ int main(){
         for(int i = 1; i < n; i++){
             ans = max(ans, a[i] - a[0]);
         }
+
+        for(int i = 0; i < n - 1; i++){}
     }
 
 
