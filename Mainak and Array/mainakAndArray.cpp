@@ -26,7 +26,7 @@ int main(){
         }
 
         for(int i = 1; i < n; i++){
-
+            ans = max(ans, a[i] - a[0]);
         }
     }
 
