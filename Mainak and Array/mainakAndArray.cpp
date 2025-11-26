@@ -18,6 +18,8 @@ int main(){
             cout << 0 << "\n";
             return;
         }
+
+        int ans = a[n - 1] - a[0];
     }
 
 
