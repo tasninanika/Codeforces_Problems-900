@@ -17,7 +17,9 @@ int main(){
     for(int i = 0; i < n; i++){
         cin >> a[i];
 
-        if(a[i] < min_val){}
+        if(a[i] < min_val){
+
+        }
     }
 
 
