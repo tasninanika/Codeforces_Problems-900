@@ -20,6 +20,7 @@ int main(){
         if(a[i] < min_val){
             min_val = a[i];
         }
+
     }
 
 
