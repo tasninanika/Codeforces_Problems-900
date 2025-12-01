@@ -21,7 +21,7 @@ int main(){
             min_val = a[i];
         }
         if(a[i] > max_val){
-
+            max_val = a[i];
         }
     }
 
