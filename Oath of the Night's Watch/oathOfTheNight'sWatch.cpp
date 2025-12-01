@@ -14,7 +14,9 @@ int main(){
     int min_val = 2147483647;
     int max_val = -1;
 
-    for(int i = 0; i < n; i++){}
+    for(int i = 0; i < n; i++){
+
+    }
 
 
 
