@@ -12,7 +12,7 @@ int main(){
 
     vector<int> a(n);
     int min_val = 2147483647;
-
+    int max_val = -1;
 
 
 
