@@ -11,7 +11,7 @@ int main(){
     }
 
     vector<int> a(n);
-
+    int min_val = 2147483647;
 
 
 
