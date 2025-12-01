@@ -28,7 +28,7 @@ int main(){
     int count = 0;
     for(int i = 0; i < n; i++){
         if(a[i] > min_val && a[i] < max_val){
-
+            count++;
         }
     }
 
