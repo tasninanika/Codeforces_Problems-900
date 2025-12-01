@@ -15,7 +15,7 @@ int main(){
     int max_val = -1;
 
     for(int i = 0; i < n; i++){
-
+        cin >> a[i];
     }
 
 
