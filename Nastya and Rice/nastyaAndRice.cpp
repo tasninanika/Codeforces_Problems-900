@@ -6,17 +6,19 @@ int main(){
     cin >> t;
 
     while(t--){
-        long long n, a, b, c, d;
+        int n, a, b, c, d;
         cin >> n >> a >> b >> c >> d;
 
-        long long min_possible = n * (a - b);
-        long long max_possible = n * (a + b);
+        long long w_min = (long long)n * (a - b);
+        long long w_max = (long long)n * (a + b);
+        long long t_min = c - d;
+        long long t_max = c + d;
 
-        if (max_possible >= c && min_possible <= d) {
-            cout << "Yes" << "\n";
+        if (w_max >= t_min && w_min <= t_max) {
+            cout << "Yes" << endl;
         }
         else {
-            cout << "No" << "\n";
+            cout << "No" << endl;
         }
     }
 
