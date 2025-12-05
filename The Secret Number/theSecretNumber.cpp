@@ -16,7 +16,7 @@ int main(){
 
             if ((long long)n % divisor == 0) {
                 cout << "Yes" << endl;
-                return;
+                continue;
             }
 
             if (k < 9) {
