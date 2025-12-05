@@ -6,25 +6,32 @@ int main(){
     cin >> t;
 
     while(t--){
-        int n;
+        long long n;
         cin >> n;
 
-        long long power_of_ten = 1;
+        bool possible = false;
+        long long power_of_ten = 10;
 
-        for (int k = 0; k <= 9; ++k) {
-            long long divisor = 1 + power_of_ten;
+        for (int k = 1; k <= 18; ++k) {
+            long long divisor = power_of_ten + 1;
 
-            if ((long long)n % divisor == 0) {
-                cout << "Yes" << endl;
-                continue;
+            if (n % divisor == 0) {
+                long long x = n / divisor;
+                if (x % 10 != 0) {
+                    possible = true;
+                    break;
+                }
             }
-
-            if (k < 9) {
+            if (k < 18) {
                 power_of_ten *= 10;
             }
         }
-
-        cout << "No" << endl;
+        if (possible) {
+            cout << "Yes" << endl;
+        }
+        else {
+            cout << "No" << endl;
+        }
     }
     return 0;
 }
