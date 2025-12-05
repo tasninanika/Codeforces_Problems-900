@@ -1,37 +1,32 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
+using ll = long long;
 
-int main(){
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
     int t;
     cin >> t;
-
-    while(t--){
-        long long n;
+    for (int test = 0; test < t; ++test) {
+        ll n;
         cin >> n;
-
-        bool possible = false;
-        long long power_of_ten = 10;
-
+        vector<ll> xs;
+        ll pow10 = 10;
         for (int k = 1; k <= 18; ++k) {
-            long long divisor = power_of_ten + 1;
-
-            if (n % divisor == 0) {
-                long long x = n / divisor;
-                if (x % 10 != 0) {
-                    possible = true;
-                    break;
-                }
+            ll d = 1 + pow10;
+            if (d > n) break;
+            if (n % d == 0) {
+                xs.push_back(n / d);
             }
-            if (k < 18) {
-                power_of_ten *= 10;
-            }
+            pow10 *= 10;
         }
-        if (possible) {
-            cout << "Yes" << endl;
+        sort(xs.begin(), xs.end());
+        cout << xs.size();
+        for (auto x : xs) {
+            cout << " " << x;
         }
-        else {
-            cout << "No" << endl;
-        }
+        cout << "\n";
     }
     return 0;
 }
