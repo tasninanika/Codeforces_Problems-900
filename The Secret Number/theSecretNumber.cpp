@@ -9,20 +9,22 @@ int main(){
         int n;
         cin >> n;
 
-        long long final_xor_sum = 0;
-        long long current_val;
+        long long power_of_ten = 1;
 
-        for(int i = 0; i < n; i++){
-            cin >> current_val;
-            final_xor_sum ^= current_val;
+        for (int k = 0; k <= 9; ++k) {
+            long long divisor = 1 + power_of_ten;
+
+            if ((long long)n % divisor == 0) {
+                cout << "Yes" << endl;
+                return;
+            }
+
+            if (k < 9) {
+                power_of_ten *= 10;
+            }
         }
 
-        cout << final_xor_sum << endl;
-
-        for(int i = 1; i <= n; i++){
-            cout << i << (i == n ? "" : " ");
-        }
-        cout << endl;
+        cout << "No" << endl;
     }
     return 0;
 }
