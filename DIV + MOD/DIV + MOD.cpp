@@ -16,6 +16,8 @@ int main(){
         if (m >= l) {
             ans = max(ans, m / a + m % a);
         }
+
+        cout << ans << "\n";
     }
 
 
