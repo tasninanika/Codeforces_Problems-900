@@ -12,6 +12,10 @@ int main(){
         long long ans = r / a + r % a;
 
         long long m = (r / a) * a - 1;
+
+        if (m >= l) {
+            ans = max(ans, m / a + m % a);
+        }
     }
 
 
