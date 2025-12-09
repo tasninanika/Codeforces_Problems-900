@@ -10,6 +10,8 @@ int main(){
         cin >> l >> r >> a;
 
         long long ans = r / a + r % a;
+
+        long long m = (r / a) * a - 1;
     }
 
 
