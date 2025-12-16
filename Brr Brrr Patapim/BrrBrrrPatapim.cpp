@@ -1,34 +1,43 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int main(){
+int main() {
     int t;
     cin >> t;
 
-    while(t--){
+    while(t--) {
         int n;
         cin >> n;
 
-        vector<int> p_elements;
-
-        for(int i = 0; i < n; i++){
-            int max_val = 0;
-
-            for(int j = 0; j < n; j++){
-                int a_ij;
-                cin >> a_ij;
-
-                max_val = max(max_val, a_ij);
+        vector<vector<int>> g(n, vector<int>(n));
+        vector<int> cnt(2 * n + 1, 0);
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                cin >> g[i][j];
+                cnt[g[i][j]]++;
             }
-
-            p_elements.push_back(max_val - n);
         }
+        int missing = -1;
+        for (int k = 1; k <= 2 * n; k++) {
+            if (cnt[k] == 0) {
+                missing = k;
+                break;
+            }
+        }
+        vector<int> p(2 * n + 1);
+        p[1] = missing;
+        for (int k = 2; k <= 2 * n; k++) {
+            int i = max(1, k - n);
+            int j = k - i;
+            p[k] = g[i - 1][j - 1];
+        }
+        for (int k = 1; k <= 2 * n; k++) {
+            if (k > 1)
+                cout << " ";
 
-        for (int i = 0; i < n; ++i) {
-            cout << p_elements[i] << (i == n - 1 ? "" : " ");
+            cout << p[k];
         }
         cout << "\n";
     }
-
     return 0;
 }
